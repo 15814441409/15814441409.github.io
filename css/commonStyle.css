@@ -1,0 +1,348 @@
+
+* @Author: Administrator
+* @Date:   2017-06-15 10:59:58
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-06-16 08:31:37
+*/
+/* 初始化 */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{
+	margin:0;
+	padding:0;
+}
+body{
+    margin: 0;
+}
+/*  ####################head-peak  头部上  开始 */
+#head .head-peak{                   
+    width: 100%;
+    height: 26px;
+    background: #f2f2f2;
+    border:1px solid #e5e5e5;
+}
+#head .head-peak .head-peak-con{     /*  head-peak-con  头部上 实用部分 */
+    width: 1191px;
+    height: 26px;
+    margin:0 auto;
+    /* background: yellow; */
+}
+/* ###############################收藏   开始 */
+#head .head-peak-con .keep{
+    width: 380px;
+    height: 26px;
+    /* background: red; */
+    position: relative;
+    float: left;
+}
+#head .head-peak-con .keep a{
+    position: absolute;
+    left: 21px;
+    top: 6px;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+#head .head-peak-con .keep a:hover{
+    color: red;
+}
+#head .head-peak-con .keep span{
+    font-size: 12px;
+    position: absolute;
+    left: 95px;
+    top: 6px;
+    color: #999999
+}
+/* 登录  与 注册 */
+#head .head-peak-con .keep .reg01{
+    position: absolute;
+    left: 250px;
+    top: 6px;
+}
+#head .head-peak-con .keep .reg02{
+    position: absolute;
+    left: 280px;
+    top: 6px;
+}
+/* ###############################收藏   结束 */
+
+
+/*****################################## shop 开始 */
+#head .head-peak .head-peak-con .shop{
+    width: 640px;
+    height: 26px;
+    /* background: red; */
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+    position: relative;
+}
+#head .head-peak .head-peak-con .shop span{
+    display: inline-block;
+}
+#head .head-peak .head-peak-con .shop span a{
+    text-decoration: none;
+    color: #666666;
+}
+/* 鼠标移入span  字体显示红色 */
+#head .head-peak .head-peak-con .shop span:hover a{
+    color: red;
+}
+/* w我的礼券 */
+
+
+/* @@@@@@@@@@@我的可得 */
+#head .head-peak .head-peak-con .shop .shop-wdkd{
+    display: inline-block;
+    width: 77px;
+    height: 26px;
+    /* background: blue; */
+    /* overflow: hidden; */
+}
+#head .head-peak .head-peak-con .shop .shop-wdkd a{
+    margin-left: 10px;
+}
+#head .head-peak .head-peak-con .shop .shop-wdkd i{
+    width: 20px;
+    height:20px;
+    display: inline-block;
+    position: absolute;
+    left:116px; 
+    top: -1px;
+}
+
+/* 我的可得-->鼠标移入效果 */
+#head .head-peak .head-peak-con .shop .wddd {
+    width: 77px;
+    height: 98px;
+    background: white;
+    z-index: 10;
+    /* margin-left: 10px; */
+    position: absolute;
+    left: 51px;
+    top: 25px;
+    display: none;
+    /* border:1px solid #cccccc; */
+}
+#head .head-peak .head-peak-con .shop .wddd li{
+    height: 25px;
+    font-size: 12px;
+    list-style: none;
+    line-height: 25px;
+    
+}
+#head .head-peak .head-peak-con .shop .wddd li a{
+    text-decoration: none;
+    color: black;
+}
+#head .head-peak .head-peak-con .shop .wddd li:hover a{
+    color: red;
+    text-decoration: underline;
+}
+#head .head-peak .head-peak-con .shop .shop-wdkd:hover{
+    background: url(../image/08.png) ;
+    /* border:1px solid #cccccc; */
+}
+#head .head-peak .head-peak-con .shop .shop-wdkd:hover .wddd{
+    display: block;
+}
+
+
+/* @@@@@@@帮助中心 */
+#head .head-peak .head-peak-con .shop .shop-bzzx{
+    display: inline-block;
+    width: 78px;
+    height: 26px;
+    /* background: blue; */
+}
+#head .head-peak .head-peak-con .shop .shop-bzzx a{
+    margin-left: 10px;
+}
+#head .head-peak .head-peak-con .shop .shop-bzzx i{
+    width: 20px;
+    height:20px;
+    background: url(../image/03.png) no-repeat; 
+    display: inline-block;
+    position: absolute;
+    left:196px; 
+    top: 10px;
+}
+
+/* 帮助中心-->鼠标移入效果 */
+#head .head-peak .head-peak-con .shop .wddd02 {
+    width: 78px;
+    height: 174px;
+    background: white;
+    z-index: 10;
+    /* margin-left: 10px; */
+    position: absolute;
+    left: 132px;
+    top: 26px;
+    display: none;
+}
+#head .head-peak .head-peak-con .shop .wddd02 li{
+    height: 25px;
+    font-size: 12px;
+    list-style: none;
+    line-height: 25px;
+}
+#head .head-peak .head-peak-con .shop .wddd02 li a{
+    text-decoration: none;
+    color: black;
+}
+#head .head-peak .head-peak-con .shop .wddd02 li:hover a{
+    color: red;
+    text-decoration: underline;
+}
+#head .head-peak .head-peak-con .shop .shop-bzzx:hover{
+    background: url(../image/08.png) ;
+}
+#head .head-peak .head-peak-con .shop .shop-bzzx:hover .wddd02{
+    display: block;
+}
+/* @@@@@@@@@@@@@@购物车 */
+#head .head-peak .head-peak-con .shop .shop-gouwu{
+    width: 107px;
+    height: 26px;
+    /* background: yellow; */
+    border-right: 1px solid #ffffff;
+}
+#head .head-peak .head-peak-con .shop .shop-gouwu i{
+    display: inline-block;
+    background: url(../image/04.png) no-repeat;
+    width: 27px;
+    height: 26px;
+    position: absolute;
+    left:216px; 
+    top: 5px;
+}
+#head .head-peak .head-peak-con .shop .shop-gouwu a{
+     margin-left: 38px;
+}
+20
+/* @@@@@@@@@@@@@@@手机版 */
+#head .head-peak .head-peak-con .shop .shop-shouji{
+    width: 66px;
+    height: 26px;
+    background: yellow;
+}
+#head .head-peak .head-peak-con .shop .shop-shouji i{
+    display: inline-block;
+    background: url(../image/05.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:326px; 
+    top: 5px;
+}
+#head .head-peak .head-peak-con .shop .shop-shouji a{
+     margin-left: 19px;
+}
+/* $$$$$$鼠标移入效果 */
+#head .head-peak .head-peak-con .shop .shop-shouji .wddd03{
+    background: url(../image/09.png) no-repeat;
+    width: 10px;
+    height: 10px;
+    /* background: red; */
+    position: absolute;
+    left: 349px;
+    top: 21px;
+    z-index: 30px;
+    display: none;
+}
+#head .head-peak .head-peak-con .shop .shop-shouji .wddd04{
+    background: url(../image/10.png) no-repeat;
+    width: 168px;
+    height: 200px;
+    z-index: 30px;
+    position: absolute;
+    left: 271px;
+    top: 26px;
+    display: none;
+}
+#head .head-peak .head-peak-con .shop .shop-shouji:hover .wddd03{
+    display: block;
+}
+#head .head-peak .head-peak-con .shop .shop-shouji:hover .wddd04{
+    display: block;
+}
+
+
+/* 客户电话 */
+#head .head-peak .head-peak-con .shop .shop-kefu{
+    width: 246px;
+    height: 26px;
+    /* background: yellow; */
+}
+#head .head-peak .head-peak-con .shop .shop-kefu i{
+    display: inline-block;
+    background: url(../image/06.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:386px; 
+    top: 5px;
+}
+#head .head-peak .head-peak-con .shop .shop-kefu a{
+     margin-left:27px;
+     color: red;
+}
+/*****################################## shop 结束 
+
+
+/* ****#################################  头部中   开始 */
+#head .head-gala{
+    width: 100%;
+    height: 96px;
+}
+#head .head-gala .head-gala-con{
+    width: 1191px;
+    height: 96px;
+    margin:0 auto;
+    background: red;
+}
+/* ****################################3  头部中   结束 */
+/* ****################################### 头部下  开始 */
+#head .head-search{
+    width: 100%;
+    height: 100px;
+    /* background: red; */
+}
+#head .head-search .head-search-con{
+    width: 1191px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background: pink; */
+}
+/* ^^^^^^^^^^^^左边 */
+#head .head-search .head-search-con .logo-left{
+    width: 207px;
+    height: 72px;
+    background: blue;
+    margin-top: 32px;
+    float: left;
+}
+/* ^^^^^^^^^^^^中间 */
+#head .head-search .head-search-con .logo-com{
+    width: 250px;
+    height: 100px;
+    /* background: yellow; */
+    margin-left: 550px;
+    /* float: left; */
+
+}
+#head .head-search .head-search-con .logo-com .left{
+    display: inline-block;
+    margin-top:30px;
+    float: left;
+}
+#head .head-search .head-search-con .logo-com .right{
+    display: inline-block;
+    margin-top:34px;
+}
+/* ^^^^^^^^^^^^右边 */
+#head .head-search .head-search-con .logo-right{
+    width: 330px;
+    height: 52px;
+    background: yellow;
+}
+    
