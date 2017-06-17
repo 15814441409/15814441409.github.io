@@ -2,6 +2,15 @@
 * @Author: Administrator
 * @Date:   2017-06-15 11:23:11
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-06-15 11:26:21
+* @Last Modified time: 2017-06-16 16:56:55
 */
-       
+/* #@@@@@@@@@@@@@@@@@@@轮播图 */
+#shop {
+	height: 320px;
+}
+#shop .shop-com{
+	width: 1191px;
+	height: 320px;
+	background: red;
+	margin: 0 auto;
+}
