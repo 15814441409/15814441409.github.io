@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>可得眼镜网-网上配眼镜首选</title>
     <link rel="stylesheet" href="css/commonStyle.css">
-    <link rel="stylesheet" href="css/index.css">
+    <script src="http://www.jq22.com/jquery/1.8.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/nav.css">
+    <script type="text/javascript" src="js/nav.js"></script>
+   
 </head>
 <body>
 <!-- 头部 -->
@@ -61,7 +64,7 @@
                     </span>
                     <span class="shop-kefu">
                         <i></i>
-                        <a href="#">客服电话 : 4006-20-20-20( 9:00-23:45)</a>
+                        <a href="#">客服电话:4006-20-20-20(9:00-23:45)</a>
                     </span>
                     
                 </div>
@@ -132,20 +135,639 @@
         </div>
     </div>
 <!-- 轮播图   -->
-<!-- 轮播图 ~ 全部商品 -->
-    <div id="shop">
-        <div class="shop-com">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+    <div class="slider" id="slider">
+      <div class="slider-inner">
+        <div class="item">
+          <img class="img" style="background: url('image/01.jpg');">
         </div>
+        <div class="item">
+          <img class="img" style="background: url('image/02.jpg');">
+        </div>
+        <div class="item">
+          <img class="img" style="background: url('image/03.jpg');">
+        </div>
+        <div class="item">
+          <img class="img" style="background: url('image/04.jpg');">
+        </div>
+        <div class="item">
+          <img class="img" style="background: url('image/05.jpg');">
+        </div>
+        <div class="item">
+          <img class="img" style="background: url('image/06.jpg');">
+        </div>
+        <div class="item">
+          <img class="img" style="background: url('image/07.jpg');">
+        </div>
+      </div>
+            <!-- 右侧图片扫码 -->
+        <div class="images">
+            <img src="images/200.png" height="320" width="218" alt="">
+        </div>
+
+
+
+
+
+            <!-- 轮播图 ~ 全部商品 -->
+        <div class="wrap">
+
+            <div class="all-sort-list">
+           <!--1  图书 -->
+                <div class="item bo">
+
+                    <h3><span><img src="images/30.png"/></span><a href="">透明隐形眼镜</a></h3>
+                    <span class="spans"><img src="images/37.png" /></span>
+                    <!-- 隐形区域 -->
+                    <div class="item-list clearfix">
+
+                        <!-- <div class="close">x</div> -->
+                        <!-- 品牌 -->
+                        <div class="fore1">
+                            <p>品牌<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con1">
+                                <span>|</span><a href="#" class="size1">博士伦</a>
+                                <span>|</span><a href="#">强生</a>
+                                <span>|</span><a href="#">视康爱尔康</a>
+                                <span>|</span><a href="#" class="size2">库伯</a>
+                                <span>|</span><a href="#">海沧</a>
+                                <span>|</span><a href="#">卫康</a>
+                                <span>|</span><a href="#">美若康</a>
+                                <span>|</span><a href="#" class="size3">Miru米如</a>
+                                <span>|</span><a href="#">依视明</a>
+                                
+                            </div>
+                            <div class="fore-con2">
+                                <span>|</span><a href="#">奥克拉</a>
+                                <span>|</span><a href="#" class="size1">四通</a>
+                                <span>|</span><a href="#">科莱博</a>
+                                <span>|</span><a href="#" class="size2">蔡司</a>
+                                <span>|</span><a href="#">莱诺</a>
+                                <span>|</span><a href="#">SVP思汉普</a>
+                                <span>|</span><a href="#">更多品牌 >></a>
+                            </div>
+                        </div>
+                        <!-- 周期 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">日抛</a>
+                                <span>|</span><a href="#">双周抛</a>
+                                <span>|</span><a href="#">月抛</a>
+                                <span>|</span><a href="#" class="size2">季抛</a>
+                                <span>|</span><a href="#">半年抛</a>
+                                <span>|</span><a href="#">年抛</a>
+                            </div>
+                        </div>
+                        <!-- 含水量 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">43-69%</a>
+                                <span>|</span><a href="#">38-42%</a>
+                                <span>|</span><a href="#">≤37%</a>
+                            </div>
+                        </div>
+                        <!-- 定制 -->
+                        <div class="fore2">
+                            <p>定制<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">高度近视</a>
+                                <span>|</span><a href="#">近视闪光</a>
+                                <span>|</span><a href="#">远视闪光</a>
+                            </div>
+                        </div>
+                        <!-- 热门 -->
+                        <div class="fore2">
+                            <p>热门<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">癸水凝胶(超长截)</a>
+                                <span>|</span><a href="#">防紫外线(抗UV)</a>
+                                <span>|</span><a href="#">防眼干/眼红</a>
+                            </div>
+                        </div>
+                        <!-- 右边图片区 -->
+                        <div class="fore-right">
+                            <div class="fore-right-com">
+                                <a href="#"><img src="images/120.jpg"  alt="" class="image1" /></a>
+                                <a href="#"><img src="images/121.jpg"  alt="" class="image2" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        <!--2  家电 -->
+                <div class="item">
+
+                    <h3><span><img src="images/31.png"/></span><a href="">彩色隐形眼镜</a></h3>
+                    <span class="spans"><img src="images/37.png" /></span>
+                    <!-- 隐形区域 -->
+                    <div class="item-list clearfix">
+
+                        <!-- <div class="close">x</div> -->
+                        <!-- 品牌 -->
+                        <div class="fore1">
+                            <p>品牌<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con1">
+                                <span>|</span><a href="#" class="size1">博士伦</a>
+                                <span>|</span><a href="#">强生</a>
+                                <span>|</span><a href="#">视康爱尔康</a>
+                                <span>|</span><a href="#" class="size2">库伯</a>
+                                <span>|</span><a href="#">海沧</a>
+                                <span>|</span><a href="#">卫康</a>
+                                <span>|</span><a href="#">美若康</a>
+                                <span>|</span><a href="#" class="size3">Miru米如</a>
+                                <span>|</span><a href="#">依视明</a>
+                                
+                            </div>
+                            <div class="fore-con2">
+                                <span>|</span><a href="#">奥克拉</a>
+                                <span>|</span><a href="#" class="size1">四通</a>
+                                <span>|</span><a href="#">科莱博</a>
+                                <span>|</span><a href="#" class="size2">蔡司</a>
+                                <span>|</span><a href="#">莱诺</a>
+                                <span>|</span><a href="#">SVP思汉普</a>
+                                <span>|</span><a href="#">更多品牌 >></a>
+                            </div>
+                        </div>
+                        <!-- 周期 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">日抛</a>
+                                <span>|</span><a href="#">双周抛</a>
+                                <span>|</span><a href="#">月抛</a>
+                                <span>|</span><a href="#" class="size2">季抛</a>
+                                <span>|</span><a href="#">半年抛</a>
+                                <span>|</span><a href="#">年抛</a>
+                            </div>
+                        </div>
+                        <!-- 含水量 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">43-69%</a>
+                                <span>|</span><a href="#">38-42%</a>
+                                <span>|</span><a href="#">≤37%</a>
+                            </div>
+                        </div>
+                        <!-- 定制 -->
+                        <div class="fore2">
+                            <p>定制<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">高度近视</a>
+                                <span>|</span><a href="#">近视闪光</a>
+                                <span>|</span><a href="#">远视闪光</a>
+                            </div>
+                        </div>
+                        <!-- 热门 -->
+                        <div class="fore2">
+                            <p>热门<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">癸水凝胶(超长截)</a>
+                                <span>|</span><a href="#">防紫外线(抗UV)</a>
+                                <span>|</span><a href="#">防眼干/眼红</a>
+                            </div>
+                        </div>
+                        <!-- 右边图片区 -->
+                        <div class="fore-right">
+                            <div class="fore-right-com">
+                                <a href="#"><img src="images/122.jpg"  alt="" class="image1" /></a>
+                                <a href="#"><img src="images/123.jpg"  alt="" class="image2" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+        <!--3  手机 -->
+                <div class="item">
+
+                    <h3><span><img src="images/32.png"/></span><a href="">护理用品</a></h3>
+                    <span class="spans"><img src="images/37.png" /></span>
+                    <!-- 隐形区域 -->
+                    <div class="item-list clearfix">
+
+                        <!-- <div class="close">x</div> -->
+                        <!-- 品牌 -->
+                        <div class="fore1">
+                            <p>品牌<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con1">
+                                <span>|</span><a href="#" class="size1">博士伦</a>
+                                <span>|</span><a href="#">强生</a>
+                                <span>|</span><a href="#">视康爱尔康</a>
+                                <span>|</span><a href="#" class="size2">库伯</a>
+                                <span>|</span><a href="#">海沧</a>
+                                <span>|</span><a href="#">卫康</a>
+                                <span>|</span><a href="#">美若康</a>
+                                <span>|</span><a href="#" class="size3">Miru米如</a>
+                                <span>|</span><a href="#">依视明</a>
+                                
+                            </div>
+                            <div class="fore-con2">
+                                <span>|</span><a href="#">奥克拉</a>
+                                <span>|</span><a href="#" class="size1">四通</a>
+                                <span>|</span><a href="#">科莱博</a>
+                                <span>|</span><a href="#" class="size2">蔡司</a>
+                                <span>|</span><a href="#">莱诺</a>
+                                <span>|</span><a href="#">SVP思汉普</a>
+                                <span>|</span><a href="#">更多品牌 >></a>
+                            </div>
+                        </div>
+                        <!-- 周期 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">日抛</a>
+                                <span>|</span><a href="#">双周抛</a>
+                                <span>|</span><a href="#">月抛</a>
+                                <span>|</span><a href="#" class="size2">季抛</a>
+                                <span>|</span><a href="#">半年抛</a>
+                                <span>|</span><a href="#">年抛</a>
+                            </div>
+                        </div>
+                        <!-- 含水量 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">43-69%</a>
+                                <span>|</span><a href="#">38-42%</a>
+                                <span>|</span><a href="#">≤37%</a>
+                            </div>
+                        </div>
+                        <!-- 定制 -->
+                        <div class="fore2">
+                            <p>定制<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">高度近视</a>
+                                <span>|</span><a href="#">近视闪光</a>
+                                <span>|</span><a href="#">远视闪光</a>
+                            </div>
+                        </div>
+                        <!-- 热门 -->
+                        <div class="fore2">
+                            <p>热门<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">癸水凝胶(超长截)</a>
+                                <span>|</span><a href="#">防紫外线(抗UV)</a>
+                                <span>|</span><a href="#">防眼干/眼红</a>
+                            </div>
+                        </div>
+                        <!-- 右边图片区 -->
+                        <div class="fore-right">
+                            <div class="fore-right-com">
+                                <a href="#"><img src="images/124.jpg"  alt="" class="image1" /></a>
+                                <a href="#"><img src="images/125.jpg"  alt="" class="image2" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        <!--4  图书 -->
+                <div class="item">
+
+                    <h3><span><img src="images/33.png"/></span><a href="">近视眼镜</a></h3>
+                    <span class="spans"><img src="images/37.png" /></span>
+                    <!-- 隐形区域 -->
+                    <div class="item-list clearfix">
+
+                        <!-- <div class="close">x</div> -->
+                        <!-- 品牌 -->
+                        <div class="fore1">
+                            <p>品牌<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con1">
+                                <span>|</span><a href="#" class="size1">博士伦</a>
+                                <span>|</span><a href="#">强生</a>
+                                <span>|</span><a href="#">视康爱尔康</a>
+                                <span>|</span><a href="#" class="size2">库伯</a>
+                                <span>|</span><a href="#">海沧</a>
+                                <span>|</span><a href="#">卫康</a>
+                                <span>|</span><a href="#">美若康</a>
+                                <span>|</span><a href="#" class="size3">Miru米如</a>
+                                <span>|</span><a href="#">依视明</a>
+                                
+                            </div>
+                            <div class="fore-con2">
+                                <span>|</span><a href="#">奥克拉</a>
+                                <span>|</span><a href="#" class="size1">四通</a>
+                                <span>|</span><a href="#">科莱博</a>
+                                <span>|</span><a href="#" class="size2">蔡司</a>
+                                <span>|</span><a href="#">莱诺</a>
+                                <span>|</span><a href="#">SVP思汉普</a>
+                                <span>|</span><a href="#">更多品牌 >></a>
+                            </div>
+                        </div>
+                        <!-- 周期 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">日抛</a>
+                                <span>|</span><a href="#">双周抛</a>
+                                <span>|</span><a href="#">月抛</a>
+                                <span>|</span><a href="#" class="size2">季抛</a>
+                                <span>|</span><a href="#">半年抛</a>
+                                <span>|</span><a href="#">年抛</a>
+                            </div>
+                        </div>
+                        <!-- 含水量 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">43-69%</a>
+                                <span>|</span><a href="#">38-42%</a>
+                                <span>|</span><a href="#">≤37%</a>
+                            </div>
+                        </div>
+                        <!-- 定制 -->
+                        <div class="fore2">
+                            <p>定制<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">高度近视</a>
+                                <span>|</span><a href="#">近视闪光</a>
+                                <span>|</span><a href="#">远视闪光</a>
+                            </div>
+                        </div>
+                        <!-- 热门 -->
+                        <div class="fore2">
+                            <p>热门<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">癸水凝胶(超长截)</a>
+                                <span>|</span><a href="#">防紫外线(抗UV)</a>
+                                <span>|</span><a href="#">防眼干/眼红</a>
+                            </div>
+                        </div>
+                        <!-- 右边图片区 -->
+                        <div class="fore-right">
+                            <div class="fore-right-com">
+                                <a href="#"><img src="images/120.jpg"  alt="" class="image1" /></a>
+                                <a href="#"><img src="images/121.jpg"  alt="" class="image2" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        <!--5  图书 -->
+                <div class="item">
+
+                    <h3><span><img src="images/34.png"/></span><a href="">太阳眼镜</a></h3>
+                    <span class="spans"><img src="images/37.png" /></span>
+                    <!-- 隐形区域 -->
+                    <div class="item-list clearfix">
+
+                        <!-- <div class="close">x</div> -->
+                        <!-- 品牌 -->
+                        <div class="fore1">
+                            <p>强生<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con1">
+                                <span>|</span><a href="#" class="size1">博士伦</a>
+                                <span>|</span><a href="#">强生</a>
+                                <span>|</span><a href="#">视康爱尔康</a>
+                                <span>|</span><a href="#" class="size2">库伯</a>
+                                <span>|</span><a href="#">海沧</a>
+                                <span>|</span><a href="#">卫康</a>
+                                <span>|</span><a href="#">美若康</a>
+                                <span>|</span><a href="#" class="size3">Miru米如</a>
+                                <span>|</span><a href="#">依视明</a>
+                                
+                            </div>
+                            <div class="fore-con2">
+                                <span>|</span><a href="#">奥克拉</a>
+                                <span>|</span><a href="#" class="size1">四通</a>
+                                <span>|</span><a href="#">科莱博</a>
+                                <span>|</span><a href="#" class="size2">蔡司</a>
+                                <span>|</span><a href="#">莱诺</a>
+                                <span>|</span><a href="#">SVP思汉普</a>
+                                <span>|</span><a href="#">更多品牌 >></a>
+                            </div>
+                        </div>
+                        <!-- 周期 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">日抛</a>
+                                <span>|</span><a href="#">双周抛</a>
+                                <span>|</span><a href="#">月抛</a>
+                                <span>|</span><a href="#" class="size2">季抛</a>
+                                <span>|</span><a href="#">半年抛</a>
+                                <span>|</span><a href="#">年抛</a>
+                            </div>
+                        </div>
+                        <!-- 含水量 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">43-69%</a>
+                                <span>|</span><a href="#">38-42%</a>
+                                <span>|</span><a href="#">≤37%</a>
+                            </div>
+                        </div>
+                        <!-- 定制 -->
+                        <div class="fore2">
+                            <p>定制<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">高度近视</a>
+                                <span>|</span><a href="#">近视闪光</a>
+                                <span>|</span><a href="#">远视闪光</a>
+                            </div>
+                        </div>
+                        <!-- 热门 -->
+                        <div class="fore2">
+                            <p>热门<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">癸水凝胶(超长截)</a>
+                                <span>|</span><a href="#">防紫外线(抗UV)</a>
+                                <span>|</span><a href="#">防眼干/眼红</a>
+                            </div>
+                        </div>
+                        <!-- 右边图片区 -->
+                        <div class="fore-right">
+                            <div class="fore-right-com">
+                                <a href="#"><img src="images/126.jpg"  alt="" class="image1" /></a>
+                                <a href="#"><img src="images/127.jpg"  alt="" class="image2" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        <!--6  图书 -->
+                <div class="item">
+
+                    <h3><span><img src="images/35.png"/></span><a href="">功能眼镜</a></h3>
+                    <span class="spans"><img src="images/37.png" /></span>
+                    <!-- 隐形区域 -->
+                    <div class="item-list clearfix">
+
+                        <!-- <div class="close">x</div> -->
+                        <!-- 品牌 -->
+                        <div class="fore1">
+                            <p>产量<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con1">
+                                <span>|</span><a href="#" class="size1">博士伦</a>
+                                <span>|</span><a href="#">强生</a>
+                                <span>|</span><a href="#">视康爱尔康</a>
+                                <span>|</span><a href="#" class="size2">库伯</a>
+                                <span>|</span><a href="#">海沧</a>
+                                <span>|</span><a href="#">卫康</a>
+                                <span>|</span><a href="#">美若康</a>
+                                <span>|</span><a href="#" class="size3">Miru米如</a>
+                                <span>|</span><a href="#">依视明</a>
+                                
+                            </div>
+                            <div class="fore-con2">
+                                <span>|</span><a href="#">奥克拉</a>
+                                <span>|</span><a href="#" class="size1">四通</a>
+                                <span>|</span><a href="#">科莱博</a>
+                                <span>|</span><a href="#" class="size2">蔡司</a>
+                                <span>|</span><a href="#">莱诺</a>
+                                <span>|</span><a href="#">SVP思汉普</a>
+                                <span>|</span><a href="#">更多品牌 >></a>
+                            </div>
+                        </div>
+                        <!-- 周期 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">日抛</a>
+                                <span>|</span><a href="#">双周抛</a>
+                                <span>|</span><a href="#">月抛</a>
+                                <span>|</span><a href="#" class="size2">季抛</a>
+                                <span>|</span><a href="#">半年抛</a>
+                                <span>|</span><a href="#">年抛</a>
+                            </div>
+                        </div>
+                        <!-- 含水量 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">43-69%</a>
+                                <span>|</span><a href="#">38-42%</a>
+                                <span>|</span><a href="#">≤37%</a>
+                            </div>
+                        </div>
+                        <!-- 定制 -->
+                        <div class="fore2">
+                            <p>定制<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">高度近视</a>
+                                <span>|</span><a href="#">近视闪光</a>
+                                <span>|</span><a href="#">远视闪光</a>
+                            </div>
+                        </div>
+                        <!-- 热门 -->
+                        <div class="fore2">
+                            <p>热门<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">癸水凝胶(超长截)</a>
+                                <span>|</span><a href="#">防紫外线(抗UV)</a>
+                                <span>|</span><a href="#">防眼干/眼红</a>
+                            </div>
+                        </div>
+                        <!-- 右边图片区 -->
+                        <div class="fore-right">
+                            <div class="fore-right-com">
+                                <a href="#"><img src="images/128.jpg"  alt="" class="image1" /></a>
+                                <a href="#"><img src="images/129.jpg"  alt="" class="image2" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        <!--7  图书 -->
+                <div class="item">
+
+                    <h3><span><img src="images/36.png"/></span><a href="">美妆个护</a></h3>
+                    <span class="spans"><img src="images/37.png" /></span>
+                    <!-- 隐形区域 -->
+                    <div class="item-list clearfix">
+
+                        <!-- <div class="close">x</div> -->
+                        <!-- 品牌 -->
+                        <div class="fore1">
+                            <p>品牌<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con1">
+                                <span>|</span><a href="#" class="size1">博士伦</a>
+                                <span>|</span><a href="#">强生</a>
+                                <span>|</span><a href="#">视康爱尔康</a>
+                                <span>|</span><a href="#" class="size2">库伯</a>
+                                <span>|</span><a href="#">海沧</a>
+                                <span>|</span><a href="#">卫康</a>
+                                <span>|</span><a href="#">美若康</a>
+                                <span>|</span><a href="#" class="size3">Miru米如</a>
+                                <span>|</span><a href="#">依视明</a>
+                                
+                            </div>
+                            <div class="fore-con2">
+                                <span>|</span><a href="#">奥克拉</a>
+                                <span>|</span><a href="#" class="size1">四通</a>
+                                <span>|</span><a href="#">科莱博</a>
+                                <span>|</span><a href="#" class="size2">蔡司</a>
+                                <span>|</span><a href="#">莱诺</a>
+                                <span>|</span><a href="#">SVP思汉普</a>
+                                <span>|</span><a href="#">更多品牌 >></a>
+                            </div>
+                        </div>
+                        <!-- 周期 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">日抛</a>
+                                <span>|</span><a href="#">双周抛</a>
+                                <span>|</span><a href="#">月抛</a>
+                                <span>|</span><a href="#" class="size2">季抛</a>
+                                <span>|</span><a href="#">半年抛</a>
+                                <span>|</span><a href="#">年抛</a>
+                            </div>
+                        </div>
+                        <!-- 含水量 -->
+                        <div class="fore2">
+                            <p>周期<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">43-69%</a>
+                                <span>|</span><a href="#">38-42%</a>
+                                <span>|</span><a href="#">≤37%</a>
+                            </div>
+                        </div>
+                        <!-- 定制 -->
+                        <div class="fore2">
+                            <p>定制<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">高度近视</a>
+                                <span>|</span><a href="#">近视闪光</a>
+                                <span>|</span><a href="#">远视闪光</a>
+                            </div>
+                        </div>
+                        <!-- 热门 -->
+                        <div class="fore2">
+                            <p>热门<span><img src="images/100.png" alt="" /></span></p>
+                            <div class="fore-con">
+                                <span>|</span><a href="#" class="size1">癸水凝胶(超长截)</a>
+                                <span>|</span><a href="#">防紫外线(抗UV)</a>
+                                <span>|</span><a href="#">防眼干/眼红</a>
+                            </div>
+                        </div>
+                        <!-- 右边图片区 -->
+                        <div class="fore-right">
+                            <div class="fore-right-com">
+                                <a href="#"><img src="images/130.jpg"  alt="" class="image1" /></a>
+                                <a href="#"><img src="images/131.jpg"  alt="" class="image2" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="js/nav2.js"></script>
+
     </div>
+<!-- 热门筛选  促销活动 -->
+
+<div id="popu">
+    <div class="popu_com">
+        
+    </div>
+</div>
+
 <!-- 尾部 -->
     <div id="tail">
         <div class="tail_com">

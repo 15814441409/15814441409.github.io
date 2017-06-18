@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-06-15 10:59:58
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-06-16 15:31:53
+* @Last Modified time: 2017-06-18 18:08:49
 */
 /* 初始化 */
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{
@@ -67,7 +67,7 @@ body{
 
 /*****################################## shop 开始 */
 #head .head-peak .head-peak-con .shop{
-    width: 640px;
+    width: 643px;
     height: 26px;
     /* background: red; */
     float: right;
@@ -115,9 +115,8 @@ body{
     height: 98px;
     background: white;
     z-index: 10;
-    /* margin-left: 10px; */
     position: absolute;
-    left: 51px;
+    left: 54px;
     top: 25px;
     display: none;
     /* border:1px solid #cccccc; */
@@ -174,7 +173,7 @@ body{
     z-index: 10;
     /* margin-left: 10px; */
     position: absolute;
-    left: 132px;
+    left: 137px;
     top: 26px;
     display: none;
 }
@@ -211,11 +210,11 @@ body{
     width: 27px;
     height: 26px;
     position: absolute;
-    left:216px; 
+    left:215px; 
     top: 5px;
 }
 #head .head-peak .head-peak-con .shop .shop-gouwu a{
-     margin-left: 38px;
+     margin-left: 30px;
 }
 20
 /* @@@@@@@@@@@@@@@手机版 */
@@ -230,11 +229,11 @@ body{
     width: 20px;
     height: 20px;
     position: absolute;
-    left:326px; 
+    left:332px; 
     top: 5px;
 }
 #head .head-peak .head-peak-con .shop .shop-shouji a{
-     margin-left: 19px;
+     margin-left: 20px;
 }
 /* $$$$$$鼠标移入效果 */
 #head .head-peak .head-peak-con .shop .shop-shouji .wddd03{
@@ -243,7 +242,7 @@ body{
     height: 10px;
     /* background: red; */
     position: absolute;
-    left: 349px;
+    left: 357px;
     top: 21px;
     z-index: 30px;
     display: none;
@@ -254,7 +253,7 @@ body{
     height: 200px;
     z-index: 30px;
     position: absolute;
-    left: 271px;
+    left: 275px;
     top: 26px;
     display: none;
 }
@@ -278,11 +277,12 @@ body{
     width: 20px;
     height: 20px;
     position: absolute;
-    left:386px; 
+    left:398px; 
     top: 5px;
 }
 #head .head-peak .head-peak-con .shop .shop-kefu a{
-     margin-left:27px;
+     margin-left:23px;
+     width:;
      color: red;
 }
 /*****################################## shop 结束 
@@ -366,7 +366,7 @@ body{
 #head .head-search .head-search-con .logo-right .logo_search01 input{
     float: right;
     width: 220px;
-    height: 28px;
+    height: 30px;
     border:0;
     box-shadow:none;
     padding-left: 30px;
@@ -432,8 +432,8 @@ body{
 /* 首页 */
 #nav .nav-com ul{
     position: absolute;
-    left: 170px;
-    top: -16px;
+    left: 210px;
+    top: 0px;
 }
 #nav .nav-com ul li{
     color: white;
