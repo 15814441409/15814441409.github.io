@@ -1,109 +1,9 @@
 /*
 * @Author: Administrator
-* @Date:   2017-06-17 11:01:33
+* @Date:   2017-06-19 15:20:55
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-06-18 19:13:31
+* @Last Modified time: 2017-06-19 15:21:08
 */
-
-  .slider {
-    position: relative;
-    height: 320px;
-    min-width: 1004px;
-    width: 100%;
-    overflow: hidden;
-    margin-left: -6px;
-  }
-
-  /* 下标 */
-  .slider .slider-pointer {
-    position: absolute;
-    bottom: 0px;
-    color: black;
-    opacity: 0.9;
-    list-style: none;
-    padding: 0;
-    z-index: 999;
-  }
-  .slider .slider-pointer li {
-    display: inline-block;
-    margin: 0 5px;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: black;
-    opacity: 0.6;
-    /* box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5); */
-    transition: all 320ms ease;
-  }
-  .slider .slider-pointer li:hover {
-    background-color: #94c51b;
-  }
-  .slider .slider-pointer li.active {
-    background-color: #94c51b;
-  }
-  .slider .slider-inner {
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-  .slider .slider-inner .item {
-    width: 100%;
-    height: 100%;
-    float: left;
-  }
-  .slider .slider-inner .img {
-    background-position: center top !important;
-    width: 100%;
-    height: 100%;
-  }
-  /* 左右图标 */
-  .slider .slider-control {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    z-index: 999;
-    border-radius: 50%;
-    text-align: center;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 30px;
-    background-color: #ffffff;
-    opacity: 0.5;
-    cursor: pointer;
-    top: 45%;
-    /* box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5); */
-    transition: all 320ms ease;
-    /* left: 50%; */
-    margin: 0 20.5%;
-
-  }
-  /* 左右图标颜色 */
-  .slider .slider-control:hover {
-    opacity: 0.9;
-    background-color: white;
-  }
-  .slider .slider-control:active {
-    opacity: 0.9;
-  }
-  .slider .slider-control.prev {
-    display: none;
-    left: 20px;
-  }
-  .slider .slider-control.next {
-    display: none;
-    right: 20px;
-  }
-  .slider:hover .slider-control.prev {
-    display: block;
-    left: 20px;
-  }
-  .slider:hover .slider-control.next {
-    display: block;
-    right: 20px;
-  }
-
-
-
 /* Remove margin padding */
 body,h1,h2,h3,h4,h5,h6,hr,img,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,span{margin:0;padding:0;}
 /* Default Font */
@@ -147,7 +47,7 @@ a:hover,a:active{text-decoration:underline;}
 
 /** 以下是必要样式 **/
 .wrap{z-index: 1000;position: absolute;left: 85px;top: 0px;}   /* ul 在窗口的位置 */
-.all-sort-list{position:relative;width:207px;padding:3px 3px 3px 0px;background:#FAFAFA;}   /* ul >li 宽度  以及高度设置 */
+.all-sort-list{position:relative;width:207px;padding:3px 3px 3px 0px;background:#fff;}   /* ul >li 宽度  以及高度设置 */
 .all-sort-list .item{height:44px;border-top:1px dotted black;width:191px;margin:0 10px; }   /* li 的 border-bottom  */
 .all-sort-list .item.bo{border-top:none;} /* 不可修改 */
 .all-sort-list .item h3{line-height:46px;font-size:11px;font-weight:normal;width:212px;overflow:hidden;margin-left: -10px;}  /* li的宽高设置 */
@@ -295,12 +195,4 @@ a:hover,a:active{text-decoration:underline;}
 }
 .item-list  .fore1 .fore-con1 a:hover,.item-list  .fore1 .fore-con2 a:hover{
   color: #f60;
-}
-
-
-/* 右侧图片扫码 */
-#slider .images{
-  position: absolute;
-  left: 1056px;
-  top:0px;
 }

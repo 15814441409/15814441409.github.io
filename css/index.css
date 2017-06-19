@@ -1,0 +1,432 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-17 11:01:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-06-19 23:55:19
+*/
+
+  .slider {
+    position: relative;
+    height: 320px;
+    min-width: 1004px;
+    width: 100%;
+    overflow: hidden;
+    margin-left: -6px;
+  }
+
+  /* 下标 */
+  .slider .slider-pointer {
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    opacity: 0.9;
+    list-style: none;
+    padding: 0;
+    z-index: 999;
+  }
+  .slider .slider-pointer li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.6;
+    /* box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5); */
+    transition: all 320ms ease;
+  }
+  .slider .slider-pointer li:hover {
+    background-color: #94c51b;
+  }
+  .slider .slider-pointer li.active {
+    background-color: #94c51b;
+  }
+  .slider .slider-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .slider .slider-inner .item {
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+  .slider .slider-inner .img {
+    background-position: center top !important;
+    width: 100%;
+    height: 100%;
+  }
+  /* 左右图标 */
+  .slider .slider-control {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 999;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    cursor: pointer;
+    top: 45%;
+    /* box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5); */
+    transition: all 320ms ease;
+    /* left: 50%; */
+    margin: 0 20.5%;
+
+  }
+  /* 左右图标颜色 */
+  .slider .slider-control:hover {
+    opacity: 0.9;
+    background-color: white;
+  }
+  .slider .slider-control:active {
+    opacity: 0.9;
+  }
+  .slider .slider-control.prev {
+    display: none;
+    left: 20px;
+  }
+  .slider .slider-control.next {
+    display: none;
+    right: 20px;
+  }
+  .slider:hover .slider-control.prev {
+    display: block;
+    left: 20px;
+  }
+  .slider:hover .slider-control.next {
+    display: block;
+    right: 20px;
+  }
+
+
+
+
+/* 右侧图片扫码 */
+#slider .images{
+  position: absolute;
+  left: 1056px;
+  top:0px;
+}
+
+/* 热门筛选  促销活动  */
+#popu{
+  width: 100%;
+  height: 152px;
+  /* background: red; */
+}
+#popu .popu_com{
+  width: 1193px;
+  height: 152px;
+  /* background: yellow; */
+  margin:0 auto;
+}
+/* 1--热门筛选  */
+#popu .popu_com .popular{
+  width: 209px;
+  height: 141px;
+  /* background: #f3f3f3; */
+  overflow: hidden;
+  border:1px solid #e9e9e9;
+  float: left;
+}
+#popu .popu_com .popular h3{
+  margin-left: 12px;
+  margin-top: 12px;
+  font-size: 13px;
+}
+#popu .popu_com .popular .sort{
+  margin-left: 12px;
+  margin-top: 5px;
+}
+#popu .popu_com .popular .sort a{
+  font-size:12px ;
+  width: 51px;
+  height: 25px;
+  background: #ffffff;
+  display: inline-block;
+  text-align: center;
+  margin-right:8px;
+  margin-bottom: 8px; 
+  line-height: 27px;
+  text-decoration: none;
+  color: #666666;
+  border:1px solid  #e9e9e9;
+
+}
+#popu .popu_com .popular .sort a:hover{
+  color: white;
+  background: #90c31f;
+  border: 1px solid #90c12f;
+}
+                        /*2--赠品专区 */
+#popu .popu_com .gift{
+  width: 743px;
+  height: 134px;
+  /* background: green; */
+  float: left;
+   padding: 9px;
+}
+#popu .popu_com .gift a img{
+  margin-right: -3px;
+}
+                        /* 3--促销活动  */
+#popu .popu_com .prom{
+  width: 216px;
+  height: 141px;
+  background: white;
+  float: left;
+  position: relative;
+  border:1px solid #e9e9e9;
+}
+#popu .popu_com .prom .prom01{
+  width: 107px;
+  height: 26px;
+  background: #ffffff;
+  border-right:1px solid #e9e9e9;
+  color: #333333;
+  float: left;
+  text-align: center;
+  line-height: 26px;
+}
+#popu .popu_com .prom .prom01:hover a{
+  color: #ff6600;
+}
+#popu .popu_com .prom .prom01 h3{
+  font-size: 13px;
+}
+#popu .popu_com .prom .prom01 h3 a{
+  text-decoration: none;
+  color: #333333;
+}
+/*  */
+#popu .popu_com .prom .prom01_com{
+  width: 211px;
+  height: 80px;  
+  background: #ffffff; 
+  margin-top: 28px;
+  padding: 16px 0;
+}
+#popu .popu_com .prom .prom01_com a{
+  color: #666666;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 11px;
+  display: block;
+  line-height: 21px;
+}
+#popu .popu_com .prom .prom01_com a:hover{
+  color:#ff6600;
+}
+/*  */
+/* $$$$$$$$$$$$$$$$$$$ */
+#popu .popu_com .prom .prom02{
+  width: 108px;
+  height: 26px;
+  background: #f4f4f4;
+  border-bottom:1px solid #e9e9e9;
+  color: #333333;
+  float: left;
+  text-align: center;
+  line-height: 26px;
+}
+#popu .popu_com .prom .prom02:hover a{
+  color: #ff6600;
+}
+#popu .popu_com .prom .prom02 h3{
+  font-size: 13px;
+}
+#popu .popu_com .prom .prom02 h3 a{
+  text-decoration: none;
+  color: #333333;
+}
+/*  */
+#popu .popu_com .prom .prom02_com{
+  width: 211px;
+  height: 80px;  
+  background: #ffffff; 
+  margin-top: 28px;
+  padding: 16px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#popu .popu_com .prom .prom02_com a{
+  color: #666666;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 11px;
+  display: block;
+  line-height: 21px;
+}
+#popu .popu_com .prom .prom02_com a:hover{
+  color:#ff6600;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!! 今日秒杀值得买 */
+#spike{
+  width: 100%;
+  height: 182px;
+  /* background: red; */
+}
+#spike .spike_com{
+  width: 1191px;
+  height: 182px;
+  /* background: blue; */
+  margin:0 auto;
+  border: 1px solid #e8e8e8;
+  position: relative;
+} 
+#spike .spike_com .spike_left{
+  width: 211px;
+  height: 182px;
+  /* background: green; */
+  float: left;
+  position: relative;
+}
+#spike .spike_com .spike_left .top i{
+  width: 211px;
+  height: 91px;
+  /* background: pink; */
+  display: inline-block;
+  background: url(../image/icon3.gif) no-repeat; 
+}
+#spike .spike_com .spike_left .bottom i{
+  width: 211px;
+  height: 91px;
+  /* background: pink; */
+  display: inline-block;
+  background: url(../image/60.png) no-repeat;
+  margin-top: -5px;
+}
+/* #########################################右边 1 */
+#spike .spike_com .spike_right1 img{
+  width: 150px;
+  height: 138px;
+}
+#spike .spike_com .spike_right1 .imgs{
+  float: left;
+  /* margin-top: 8px; */
+  margin-left: 20px;
+  margin-right: 25px;
+  text-align: center;
+}
+#spike .spike_com .spike_right1 .imgs a{
+  font-size:11px;
+  text-decoration: none;
+}
+#spike .spike_com .spike_right1 .imgs .op1{
+  color: #666;
+}
+#spike .spike_com .spike_right1 .imgs .op2{
+  color: #ff6600;
+}
+/* 特殊 */
+#spike .spike_com .spike_right1 .img5{
+  width: 150px;
+}
+/* #########################################右边 2 */
+#spike .spike_com .spike_right2{
+  position: absolute;
+  left: 211px;
+  top: 0;
+}
+#spike .spike_com .spike_right2 img{
+  width: 150px;
+  height: 138px;
+}
+#spike .spike_com .spike_right2 .imgs{
+  float: left;
+  /* margin-top: 8px; */
+  margin-left: 20px;
+  margin-right: 25px;
+  text-align: center;
+}
+#spike .spike_com .spike_right2 .imgs a{
+  font-size:11px;
+  text-decoration: none;
+}
+#spike .spike_com .spike_right2 .imgs .op1{
+  color: #666;
+}
+#spike .spike_com .spike_right2 .imgs .op2{
+  color: #ff6600;
+}
+/* 特殊 */
+#spike .spike_com .spike_right2 .img5{
+  width: 150px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!1F 透明隐形眼镜 */
+#glass{
+  width: 100%;
+  height: 790px;
+  background: pink;
+}
+#glass .gl_com{
+  width: 1193px;
+  height: 791px;
+  background: yellow;
+  margin:0 auto;
+}
+      /* 导航 */
+#glass .gl_com .gl_logo{
+  width: 1193px;
+  height: 71px;
+  background: #fafabb;
+  margin-top: 1px;
+  border-bottom: 3px solid #72b7fc;
+}
+#glass .gl_com .gl_logo h3{
+  display: inline-block;
+  font-size: 18px;
+  color: #72b7fc;
+  margin-top:40px; 
+  float: left;
+}
+
+/* 精选 */
+#glass .gl_com .gl_logo .gl_fea{
+  width: 412px;
+  height: 25px;
+  background: white;
+  float: left;
+  margin-top: 46px;
+  margin-left: 72px;
+}
+#glass .gl_com .gl_logo p{
+  display: inline-block;
+  float: left;
+}
+
+#glass .gl_com .gl_logo .fea_com a{
+  float: left;
+  list-style: none;
+  color: #666666;
+  text-decoration: none;
+}
+#glass .gl_com .gl_logo .fea_com a:hover{
+  color: #ff6600;
+}
+#glass .gl_com .gl_logo  .fea_com span{
+  margin: 0 5px;
+  float: left;
+  color: #cccccc;
+}
+
+/* 更多 */
+#glass .gl_com .gl_logo .gl_more{
+  width: 44px;
+  height: 23px;
+  /* background: green; */
+  float: right;
+  margin-top: 48px;
+}
+#glass .gl_com .gl_logo .gl_more span{
+  font-size: 11px;
+  color: #cccccc;
+}

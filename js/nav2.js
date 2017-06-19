@@ -2,11 +2,10 @@
 * @Author: Administrator
 * @Date:   2017-06-17 21:34:48
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-06-17 21:35:20
+* @Last Modified time: 2017-06-19 15:22:26
 */
 
 'use strict';
-
 		$('.all-sort-list > .item').hover(function(){
 
 			var eq = $('.all-sort-list > .item').index(this),				//获取当前滑过是第几个元素
