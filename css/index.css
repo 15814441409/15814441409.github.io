@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-06-17 11:01:33
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-06-20 20:53:40
+* @Last Modified time: 2017-06-21 09:22:08
 */
 
   .slider {
@@ -991,19 +991,21 @@
   background: #99aa44;
   margin:0 auto;
 }
+/* 导航 */
 #addres .add_com .nav{
   width: 1193px;
   height: 28px;
   /* background: red; */
   border-bottom: 3px solid #94c51b;
+  position: relative;
 }
 #addres .add_com .nav li{
   float: left;
   list-style: none;
   text-align: center;
-  line-height: 26px;
+  line-height: 22px;
 }
-#addres .add_com .nav li:hover{
+#addres .add_com .nav li:hover a{
   background: #94c51b;
   color: #fff;
 }
@@ -1022,7 +1024,24 @@
 /* 动图 */
 #addres .add_com .nav img{
   float: left;
-  margin-left: 40px;
-  width: 210px;
-  height: 28px;
+  margin-left: 30px;
+  margin-top: 1px;
+}
+/* 更多 */
+#addres .add_com .nav span{
+  display: inline-block;
+  margin-top: 7px;
+  margin-left: 8px;
+}
+#addres .add_com .nav a{
+  text-decoration: none;
+  color: #666666;
+}
+#addres .add_com .nav .oa1:hover{
+  color: #ff6600;
+}
+#addres .add_com .nav .images{
+  position: absolute;
+  right: 1px;
+  top: 7px;
 }
