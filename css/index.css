@@ -1,8 +1,8 @@
-/*
+
 * @Author: Administrator
 * @Date:   2017-06-17 11:01:33
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-06-21 09:22:08
+* @Last Modified time: 2017-06-21 22:24:42
 */
 
   .slider {
@@ -978,18 +978,19 @@
  
 
 
- /* 店铺地址 */
+ /* ##########@@@@@@@@@@@@@@@@@店铺地址 */
 #addres{
   width: 100%;
   height: 364px;
-  background: yellow;
+  /* background: yellow; */
   margin-top: 60px;
 }
 #addres .add_com{
   width: 1193px;
   height: 364px;
-  background: #99aa44;
+  /* background: #99aa44; */
   margin:0 auto;
+  border:1px solid #e9e9e9;
 }
 /* 导航 */
 #addres .add_com .nav{
@@ -1044,4 +1045,360 @@
   position: absolute;
   right: 1px;
   top: 7px;
+}
+
+/* 描述区 */
+#addres .add_com .des{
+  width: 1193px;
+  height: 60px;
+  /* background: #aacc44; */
+  border-bottom: 1px solid #e9e9e9;
+  position: relative;
+}
+#addres .add_com .des ul li .des_left{
+  width: 893px;
+  height: 60px;
+  /* background: red; */
+  overflow: hidden;
+  float: left;
+}
+#addres .add_com .des ul li .des_left p{
+  text-indent: 2em;
+  margin-top: 12px;
+  width: 660px;
+  margin-left: 16px;
+  color: #666666;
+}
+#addres .add_com .des ul li .des_right{
+  width: 300px;
+  height: 60px;
+  /* background: #cc8855; */
+  float: right;
+}
+#addres .add_com .des ul li .des_right .shopseaves{
+  width: 278px;
+  height: 30px;
+  /* background: blue; */
+  margin-top: 17px;
+  padding-left:17px; 
+  border-left: 1px solid #e9e9e9;
+}
+#addres .add_com .des ul li .des_right .shopseaves img{
+  margin-left: -4px;
+}
+#addres .add_com .des ul li{
+  /* display: none */
+}
+#addres .add_com .des ul .gui{
+  display: block;
+}
+
+/* 展示区 */
+#addres .add_com .show{
+  position: relative;
+}
+#addres .add_com .show .left{
+  width: 168px;
+  height: 271px;
+  background: blue;
+  border-right:1px solid #e9e9e9;
+  float: left;
+}
+#addres .add_com .show .left li{
+  width: 168px;
+  height: 135px;
+  /* background: red; */
+}
+#addres .add_com .show .left .li1{
+  background: url(../image/meng.png) no-repeat ;
+}
+#addres .add_com .show .left .li2{
+  border-top: 1px solid #e9e9e9;
+  background: url(../image/meng.png) no-repeat 0 -137px;
+}
+/* ~~~~~~~~~~~~~~~~~ */
+#addres .add_com .show .center {
+  width: 723px;
+  height: 271px;
+  /* background: yellow; */
+  float: left;
+  text-align: center;
+  border-right: 1px solid #e9e9e9;
+  position: relative;
+}
+#addres .add_com .show .center li .cen_img img{
+  margin-top: 10px;
+}
+#addres .add_com .show .center .gui02 .cen_img img{
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  display: none;
+}
+/* ~~~~~~~~~~~~~~~~~~~ */
+#addres .add_com .show .right{
+  width: 300px;
+  height: 271px;
+  /* background: red; */
+  float: right;
+}
+#addres .add_com .show .right .time{
+  width: 240px;
+  height: 24px;
+  display: inline-block; 
+  background:url(../image/img/xiaotupian.png) no-repeat 0 -228px;
+  margin:25px 0 0 20px;
+  /* border-bottom: 1px solid #e9e9e9; */
+  text-decoration: none;
+  color: #666666;
+}
+#addres .add_com .show .right .time span{
+  display: inline-block;
+  margin-left: 28px;
+}
+#addres .add_com .show .right .infor{
+  width: 240px;
+  height: 130px;
+  /* background: green; */
+  margin-top:15px;
+  margin-left: 20px;
+  border-top: 1px solid #e9e9e9;
+}
+#addres .add_com .show .right .infor a{
+  text-decoration: none;
+}
+#addres .add_com .show .right .infor .time1{
+  display:block;
+  color: #666666;
+  margin-top: 20px;
+  background: url(../image/img/xiaotupian.png) no-repeat -28px -6px;
+}
+#addres .add_com .show .right .infor .time1 span{
+  margin-left: 28px;
+}
+#addres .add_com .show .right .infor .time2{
+  display:block;
+  color: #666666;
+  margin-top: 8px;
+  background: url(../image/img/xiaotupian.png) no-repeat -28px -89px;
+}
+#addres .add_com .show .right .infor .time2 span{
+  margin-left: 28px;
+}
+#addres .add_com .show .right .infor .time3{
+  display:block;
+  color: #666666;
+  margin-top: 8px;
+  background: url(../image/img/xiaotupian.png) no-repeat -28px -61px;
+}
+#addres .add_com .show .right .infor .time3 span{
+  margin-left: 28px;
+}
+#addres .add_com .show .right  img{
+  margin-left: 27px;
+}
+
+
+/* @@@@@@@@@@@@@@ 描述区定位*/
+#addres .add_com .des ul li{
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+
+/* @@@@@@@@@@@@@@ 展示区定位*/
+#addres .add_com .show .xin,#addres .add_com .show .ri,#addres .add_com .show .long,#addres .add_com .show .ba,#addres .add_com .show .zheng,#addres .add_com .show .bao,#addres .add_com .show .chang{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 7F --眼镜百科 */
+#conment{
+  width: 100%;
+  height: 235px;
+  background: yellow;
+  margin-top: 30px;
+}
+#conment .com_com{
+  width: 1193px;
+  height: 235px;
+  background: blue;
+  margin: 0 auto;
+}
+/*   1-- 百科 */
+#conment .com_com .ency{
+  width: 212px;
+  height: 235px;
+  background: #ff4499;
+  border: 1px solid #e9e9e9;
+  float: left;
+}
+/* TOP */
+#conment .com_com .ency .ency_top{
+  width: 211px;
+  height: 33px;
+  background: yellow;
+  border-top: 3px solid #94c51b;
+}
+#conment .com_com .ency .ency_top a{
+  display: inline-block;
+  text-decoration: none;
+  color: #666666;
+  width: 105px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  font-size: 12px;
+  font-weight:900;
+}
+#conment .com_com .ency .ency_top .a1{
+  background: #fff;
+  color: #666666;
+}
+#conment .com_com .ency .ency_top .a2{
+  background: #94c51b;
+  color: #fff;
+  margin-left: -5px;
+}
+/* BOTTOM */
+#conment .com_com .ency .ency_bottom{
+  width: 212px;
+  height: 169px;
+  background: pink;
+  overflow: hidden;
+  padding:15px 0; 
+}
+#conment .com_com .ency .ency_bottom li{
+  background: url(../image/dayu.png) no-repeat;
+  margin-left: 7px;
+  /* margin-top: 13px; */
+  list-style: none;
+  margin-top: 1px;
+}
+#conment .com_com .ency .ency_bottom li a{
+  display: inline-block;
+  text-decoration: none;
+  color: #666666;
+  margin-left: 16px;
+}
+#conment .com_com .ency .ency_bottom li a:hover{
+  color: #ff6600;
+  }
+
+/* 2--评论 */
+#conment .com_com .reviews{
+  width: 328px;
+  height: 220px;
+  background: #dd8877;
+  float: left;
+  margin-left: 10px;
+  border:1px solid #e9e9e9;
+  overflow: hidden;
+}
+/* top */
+#conment .com_com .reviews .reviews_top{
+  width: 328px;
+  height: 30px;
+  background: yellow;
+  border-top:3px solid #94c51b;
+  border-bottom: 1px solid #ddd;
+}
+#conment .com_com .reviews .reviews_top h3{
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px;
+  margin-left: 15px;
+  /* display: inline-block; */
+}
+/* bottom */
+#conment .com_com .reviews .reviews_bottom{
+  width: 328px;
+  height: 201px;
+  background: red;
+}
+#conment .com_com .reviews .reviews_bottom li{
+  width: 315px;
+  height: 85px;
+  border-bottom:1px dotted #ddd;
+  list-style: none;
+  margin-left: 8px; 
+  background: yellow;
+}
+#conment .com_com .reviews .reviews_bottom .li1{
+  margin-top: 11px;
+}
+#conment .com_com .reviews .reviews_bottom li .left{
+  width: 71px;
+  height: 87px;
+  /* background: gray; */
+  float: left;
+} 
+#conment .com_com .reviews .reviews_bottom li .right{
+  width: 240px;
+  height: 87px;
+  /* background: red; */
+  float: right;
+}
+#conment .com_com .reviews .reviews_bottom li .right p a{
+  display: inline-block;
+  width: 240px;
+  height: 16px;
+  /* background:gray; */
+  overflow: hidden;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #666666;
+}
+#conment .com_com .reviews .reviews_bottom li .right img{
+  margin-left: 10px;
+  float: left;
+}
+#conment .com_com .reviews .reviews_bottom li .right .ping{
+  float: right;
+  margin-right: 30px;
+  color: #666666;
+}
+#conment .com_com .reviews .reviews_bottom li .right .ping span{
+  color: #ff6600;
+}
+#conment .com_com .reviews .reviews_bottom li .right .lun{
+  width: 237px;
+  height: 38px;
+  /* background: yellow; */
+  margin-top: 26px;
+  margin-left: 10px;
+}
+#conment .com_com .reviews .reviews_bottom li .right .lun a{
+  text-decoration: none;
+  color: #666666;
+}
+#conment .com_com .reviews .reviews_bottom li .right .lun span{
+  margin-left: 8px;
+}
+#conment .com_com .reviews .reviews_bottom li .right .lun span:hover{
+  color: #ff6600;
+}
+
+/*  4--扫码 */
+#conment .com_com .scan{
+  width: 290px;
+  height: 227px;
+  background: red;
+  float: right;
+  margin-left: 8px;
+}
+#conment .com_com .scan .reviews_top{
+  width: 290px;
+  height: 30px;
+  background: yellow;
+  border-top:3px solid #94c51b;
+  border-bottom: 1px solid #ddd;
+}
+#conment .com_com .scan .reviews_top h3{
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px;
+  margin-left: 15px;
+  /* display: inline-block; */
 }
